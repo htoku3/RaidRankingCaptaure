@@ -3,9 +3,9 @@ import shutil
 import glob
 import os
 
-SCREEN_SHOT_DIR = os.environ["USERPROFILE"] + "\\Documents\\"
+SCREEN_SHOT_DIR = os.environ["USERPROFILE"] + u"\\Documents\\ミストレレイド"
 INIT_IDX = len(glob.glob(SCREEN_SHOT_DIR + "\capture*.png"))
-MAX_IDX = 100
+MAX_IDX = 999
 
 match = None
 # Search mst window
@@ -19,6 +19,11 @@ while match is None:
 print(match)
 mst_app = Region(match.x - 31, match.y - 15, 1134, 638)
 
+# Make directory if not exists.
+if not os.path.exists(SCREEN_SHOT_DIR):
+    os.makedirs(SCREEN_SHOT_DIR)
+
+# Take screen shots
 idx = INIT_IDX
 while idx < MAX_IDX:
     match = None
