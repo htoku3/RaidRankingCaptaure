@@ -14,7 +14,7 @@ while match is None:
         try:
             match = Screen(id).find(Pattern("1651561551777.png").similar(0.95))
         except FindFailed:
-            pass
+            sleep(0.5)
 
 print(match)
 mst_app = Region(match.x - 31, match.y - 15, 1134, 638)
