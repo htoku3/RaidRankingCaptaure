@@ -1,0 +1,2 @@
+# RaidRankingCaptaure
+ミストレレイドのダメージランキングをキャプチャーします
