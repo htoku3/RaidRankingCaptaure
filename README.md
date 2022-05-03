@@ -25,11 +25,12 @@ SikuliX では [OpenJDK](https://openjdk.java.net/) のダウンロードを推�
 先程解凍した"jdk-18.0.1.1" のフォルダに jar ファイルを突っ込みます。
 
 
-## とにかく動かしたい人
-この　Github ページのクローンから、zip ファイルでダウンロードして解凍します。
+## スクショスクリプトのダウンロード
+[このリンク](https://github.com/htoku3/RaidRankingCaptaure/archive/refs/heads/main.zip) をクリックして下さい。
 出来た "RaidRankingCapture-main"  というフォルダを先程と同様に "jdk-18.0.1.1"　に突っ込みます。
 
-後は、 "RaidRankingCapture-main" に入って、 **exec_SikuliX.bat** をダブルクリックすると動きます。 (...動くはずです。)
+## とにかく動かしたい人
+"RaidRankingCapture-main" に入って、 **exec_SikuliX.bat** をダブルクリックすると動きます。 (...動くはずです。)
 
 終了はコマンドプロンプトを閉じればOKです。
 
@@ -57,5 +58,3 @@ raid.py をテキストエディタで開いて *SCREEN_SHOT_DIR* を編集す�
 
 1. 全てのディスプレイからレイド戦闘中に現れる *BOSS* の文字を探して、ミストレのウィンドウを位置を取得します。
 2. ランキングの "1st" を見つけたら 0.8秒待ってスクショを撮ります。
-
-#### 
