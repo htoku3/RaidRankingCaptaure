@@ -1,7 +1,7 @@
 # RaidRankingCaptaure
 [SikuliX](http://sikulix.com/) を使って、ミストレレイドのダメージランキングをキャプチャーするスクリプトです。
 
-# 使い方
+# 準備
 
 ## SikuliX のインストール
 
@@ -29,6 +29,8 @@ SikuliX では [OpenJDK](https://openjdk.java.net/) のダウンロードを推�
 [このリンク](https://github.com/htoku3/RaidRankingCaptaure/archive/refs/heads/main.zip) をクリックして下さい。
 出来た "RaidRankingCapture-main"  というフォルダを先程と同様に "jdk-18.0.1.1"　に突っ込みます。
 
+# 使い方
+
 ## とにかく動かしたい人
 "RaidRankingCapture-main" に入って、 **exec_SikuliX.bat** をダブルクリックすると動きます。 (...動くはずです。)
 
@@ -44,8 +46,7 @@ SikuliX では [OpenJDK](https://openjdk.java.net/) のダウンロードを推�
 「ファイル」 -> 「開く」 から、 raid.py　を開いて下さい。この画面からスクリプトを編集できます。
 「実行ボタン」を押せば実行します。 終了はデフォルト設定では 「Shift + Alt + C」 です。
 
-
-# どこに保存されるの？
+## どこに保存されるの？
 
 マイドキュメントに「ミストレレイド」というフォルダが作られ、そこに "capture000.png, capture001.png ..." と保存されていきます。
 最大 999 枚まで保存します。
