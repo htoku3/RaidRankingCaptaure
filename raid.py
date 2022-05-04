@@ -19,7 +19,7 @@ while match is None:
 print(match)
 mst_app = Region(match.x - 31, match.y - 15, 1134, 638)
 
-# Make directory if not exists.
+# Make the directory if doesn't exist.
 if not os.path.exists(SCREEN_SHOT_DIR):
     os.makedirs(SCREEN_SHOT_DIR)
 
