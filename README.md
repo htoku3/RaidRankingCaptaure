@@ -20,7 +20,7 @@ SikuliX では [OpenJDK](https://openjdk.java.net/) のダウンロードを推�
 
 ### SikuliX のダウンロード
 [SikuliX のダウンロードページ](https://raiman.github.io/SikuliX1/downloads.html) から [sikulixide-2.0.5-win.jar ファイル](https://launchpad.net/sikuli/sikulix/2.0.5/+download/sikulixide-2.0.5-win.jar)をダウンロードします。
-特にインストールは不要です。
+インストールは不要です。
 
 先程解凍した"jdk-18.0.1.1" のフォルダに jar ファイルを突っ込みます。
 
@@ -51,11 +51,11 @@ SikuliX では [OpenJDK](https://openjdk.java.net/) のダウンロードを推�
 マイドキュメントに「ミストレレイド」というフォルダが作られ、そこに "capture000.png, capture001.png ..." と保存されていきます。
 最大 999 枚まで保存します。
 
-raid.py をテキストエディタで開いて *SCREEN_SHOT_DIR* を編集すれば、場所を変更できます。
+raid.py をテキストエディタで開いて **SCREEN_SHOT_DIR** を編集すれば、場所を変更できます。
 
 # そもそもどう動いているの?
 
 凄く原始的な仕組みで動いてます。
 
-1. 全てのディスプレイからレイド戦闘中に現れる *BOSS* の文字を探して、ミストレのウィンドウを位置を取得します。
+1. 全てのディスプレイからレイド戦闘中に現れる **BOSS** の文字を探して、ミストレのウィンドウを位置を取得します。
 2. ランキングの "1st" を見つけたら 0.8秒待ってスクショを撮ります。
