@@ -14,7 +14,7 @@
 64bit の Java Runtime Environment (JRE) を既にインストールしている場合は不要です。
 SikuliX では [OpenJDK](https://openjdk.java.net/) のダウンロードを推奨しているようです。
 
-[公式サイト](https://jdk.java.net/18/)から、 [Windows 64bit 版 の zip ファイル](https://download.java.net/java/GA/jdk18.0.1.1/65ae32619e2f40f3a9af3af1851d6e19/2/GPL/openjdk-18.0.1.1_windows-x64_bin.zip)　を選択してダウンロードします。
+[公式サイト](https://jdk.java.net/18/)から、 [Windows 64bit 版 の zip ファイル](https://download.java.net/java/GA/jdk18.0.2.1/db379da656dc47308e138f21b33976fa/1/GPL/openjdk-18.0.2.1_windows-x64_bin.zip)　を選択してダウンロードします。
 解凍すればOKです。 "jdk-18.0.1.1" というフォルダが出来ます。
 
 
