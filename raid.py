@@ -4,7 +4,7 @@ import glob
 import os
 
 SCREEN_SHOT_DIR = os.environ["USERPROFILE"] + u"\\Documents\\ミストレレイド"
-INIT_IDX = len(glob.glob(SCREEN_SHOT_DIR + "\capture*.png"))
+INIT_IDX = len(glob.glob(SCREEN_SHOT_DIR + "\capture*.p*"))
 MAX_IDX = 999
 
 match = None
@@ -20,7 +20,7 @@ while match is None:
         except FindFailed:
             sleep(0.5)
 
-mst_app = Region(match.x - 31, match.y - 15, 1134, 638)
+mst_app = Region(match.x - 46, match.y - 18, 1135, 638)
 
 # Make the directory if doesn't exist.
 if not os.path.exists(SCREEN_SHOT_DIR):
